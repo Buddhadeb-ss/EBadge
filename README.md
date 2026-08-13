@@ -23,8 +23,11 @@ Official repository for the Point Blank Club Electronic Badge (EBadge). This pro
 ```text
 EBadge/
 ├── assets/             # Branding assets and graphics
-├── docs/               # Detailed guides and visual documentation
-│   ├── guide.md        # Comprehensive setup and usage guide
+├── docs/               # Detailed guides and project documentation
+│   ├── GUIDE.md        # Development, setup and firmware guide
+│   ├── CONTRIBUTING.md # Contribution workflow and guidelines
+│   ├── ISSUES.md       # Guide for reporting bugs and problems
+│   ├── FUTURE_FEATURES.md # Prioritised software feature backlog
 │   └── Images/         # Documentation screenshots and visual aids
 ├── enclosure/          # 3D printable files & enclosure visuals
 │   ├── Images/         # Photos/renders of the assembled badge
@@ -42,5 +45,6 @@ EBadge/
 └── hardware/           # Hardware and circuit design files
     ├── BOM/            # Bill of Materials
     ├── datasheets/     # Component datasheets
-    ├── gerbers/        # Production-ready PCB gerber files
+    ├── gerbers/        # Production-ready PCB Gerber files
     └── kicad/          # KiCad EDA source files
+```
