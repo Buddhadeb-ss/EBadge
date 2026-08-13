@@ -2,27 +2,22 @@
 
 Preferences prefs; 
 
-void storageInit()
-{
+void storageInit() {
   prefs.begin("badge", false);
 }
 
-String loadName()
-{
+String loadName() {
   return prefs.getString("name", "Not Set");
 }
 
-String loadDept()
-{
+String loadDept() {
   return prefs.getString("dept", "Not Set");
 }
 
-void saveName(String name)
-{
+void saveName(String name) {
   prefs.putString("name", name);
 }
 
-void saveDept(String dept)
-{
+void saveDept(String dept) {
   prefs.putString("dept", dept);
 }

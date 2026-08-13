@@ -1,17 +1,21 @@
+
 #include "dinogame.h"
 #include "display.h"
 #include "buttons.h"
+#include <Arduino.h>
 
 float d_y = 52, d_v = 0;
 int d_ox = 128, d_sc = 0;
 bool d_duck = false;
 bool d_over = false;
 
-void dinoReset() {
+void dinoReset()
+{
   d_y = 52; d_v = 0; d_ox = 128; d_sc = 0; d_duck = false; d_over = false;
 }
 
-void dinoUpdate() {
+void dinoUpdate()
+{
   d_duck = btnDown();
   if ((btnUp() || btnFlap()) && d_y >= 52 && !d_duck) { d_v = -6.5; }
   d_y += d_v; d_v += 0.45;
