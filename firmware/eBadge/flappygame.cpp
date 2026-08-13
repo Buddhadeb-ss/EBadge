@@ -1,6 +1,7 @@
 #include "flappygame.h"
 #include "display.h"
 #include "buttons.h"
+#include <Arduino.h>
 
 float f_by = 32, f_bv = 0;
 int f_px = 128, f_py = 32, f_sc = 0;

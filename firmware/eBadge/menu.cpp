@@ -1,24 +1,36 @@
 #include "menu.h"
 #include "display.h"
 #include "buttons.h"
+#include <Arduino.h>
 
 int menuSel = 0;
+const int NUM_ITEMS = 3;
+const char* items[] = {"Show Badge", "Play Flappy", "Play Dino"};
 
 void drawMenuScreen() {
   display.setTextColor(SH110X_WHITE);
   display.setTextSize(1);
-
-  display.setCursor(10, 5);
-  display.println("SELECT GAME");
-
-  display.setCursor(10, 25);
-  display.println(menuSel == 0 ? "> Flappy Bird" : "  Flappy Bird");
-
-  display.setCursor(10, 40);
-  display.println(menuSel == 1 ? "> Dino Jump" : "  Dino Jump");
+  display.setCursor(10, 10);
+  display.println("--- MAIN MENU ---");
+  
+  for (int i = 0; i < NUM_ITEMS; i++) {
+    display.setCursor(10, 25 + (i * 12));
+    if (i == menuSel) {
+      display.print("> ");
+    } else {
+      display.print("  ");
+    }
+    display.println(items[i]);
+  }
 }
 
 void menuHandleInput() {
-  if (btnUp())   { menuSel = 0; delay(150); }
-  if (btnDown()) { menuSel = 1; delay(150); }
+  if (btnDown()) { 
+    menuSel = (menuSel + 1) % NUM_ITEMS; 
+    delay(150);
+  }
+  if (btnUp()) { 
+    menuSel = (menuSel - 1 + NUM_ITEMS) % NUM_ITEMS; 
+    delay(150);
+  }
 }

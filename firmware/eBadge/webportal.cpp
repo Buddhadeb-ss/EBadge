@@ -1,3 +1,4 @@
+// File: webportal.cpp
 #include "webportal.h"
 #include <WiFi.h>
 #include <WebServer.h>
@@ -42,7 +43,7 @@ void handleSave() {
     saveDept(d);
   }
   server.send(200, "text/html", "<html><body>Saved. Starting badge...</body></html>");
-  configActive = false;   // .ino picks this up next loop() and handles the transition + redraw
+  configActive = false;
 }
 
 void webInit() {

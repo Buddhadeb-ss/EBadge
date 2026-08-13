@@ -7,6 +7,6 @@
 
 extern Adafruit_SH1106G display;
 
-bool displayInit();   // returns false on failure, non-fatal
+bool displayInit();
 
 #endif

@@ -4,7 +4,7 @@
 #include <Arduino.h>
 #include <Preferences.h>
 
-void storageInit();                          // call once in setup()
+void storageInit(); 
 String loadName();
 String loadDept();
 void saveName(String name);

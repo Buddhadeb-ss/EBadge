@@ -6,4 +6,5 @@ void webInit();
 void webHandle();
 void webShutdown();
 bool isConfigActive();
+
 #endif
