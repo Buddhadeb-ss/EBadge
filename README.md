@@ -1,23 +1,21 @@
-# 🏷️ EBadge — Point Blank Club Electronic Badge
-
-Welcome to the official repository for the **Point Blank Club Electronic Badge (EBadge)**! This project contains all the hardware files, 3D printable enclosure designs, documentation, and firmware required to build and program your own feature-packed electronic event badge.
+# EBadge — Point Blank Club Electronic Badge  github README.mdfficial repository for the **Point Blank Club Electronic Badge (EBadge)**! This project contains all the hardware files, 3D printable enclosure designs, documentation, and firmware required to build and program your own feature-packed electronic event badge.
 
 ---
 
-## ✨ Features
+## Features
 
 * **Interactive Display & Menu System:** Custom UI driven by dedicated display code.
 * **On-Badge Games:**
-  * 🦖 **Dino Game:** Classic side-scrolling obstacle jump game.
-  * 🐤 **Flappy Game:** Flappy Bird style arcade game.
-* **🌐 Web Portal Interface:** Onboard Wi-Fi web portal for setup and customization.
-* **💾 Local Storage Support:** Persistent saving for preferences, high scores, and settings.
-* **🕹️ Tactile Controls:** Dedicated button engine for responsive navigation and gameplay.
-* **📐 Custom Hardware & Enclosure:** Complete KiCad PCB design, gerber files, BOM, and 3D printable STL enclosure models.
+  * **Dino Game:** Classic side-scrolling obstacle jump game.
+  * **Flappy Game:** Flappy Bird style arcade game.
+* **Web Portal Interface:** Onboard Wi-Fi web portal for setup and customization.
+* **Local Storage Support:** Persistent saving for preferences, high scores, and settings.
+* **Tactile Controls:** Dedicated button engine for responsive navigation and gameplay.
+* **Custom Hardware & Enclosure:** Complete KiCad PCB design, gerber files, BOM, and 3D printable STL enclosure models.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 EBadge/
@@ -43,3 +41,5 @@ EBadge/
     ├── datasheets/     # Component datasheets
     ├── gerbers/        # Production-ready PCB gerber files
     └── kicad/          # KiCad EDA source files
+
+github README.md
