@@ -1,6 +1,12 @@
+<br>
+<p align="center">
+<img src="https://github.com/Buddhadeb-ss/EBadge/blob/87a93fea70dd7d97d00e0bfd88fd6489e5ff0ba3/assets/logo.svg" width="400px" alt="Point Blank Logo"/>
+</p>
+
 # EBadge
 
 ## Overview
+
 Official repository for the Point Blank Club Electronic Badge (EBadge). This project contains all hardware files, 3D printable enclosure designs, documentation, and firmware required to build and program your own feature-packed electronic event badge.
 
 ---
