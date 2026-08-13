@@ -1,4 +1,7 @@
-# EBadge — Point Blank Club Electronic Badge  github README.mdfficial repository for the **Point Blank Club Electronic Badge (EBadge)**! This project contains all the hardware files, 3D printable enclosure designs, documentation, and firmware required to build and program your own feature-packed electronic event badge.
+# EBadge
+
+## Overview
+Official repository for the Point Blank Club Electronic Badge (EBadge). This project contains all hardware files, 3D printable enclosure designs, documentation, and firmware required to build and program your own feature-packed electronic event badge.
 
 ---
 
@@ -41,5 +44,3 @@ EBadge/
     ├── datasheets/     # Component datasheets
     ├── gerbers/        # Production-ready PCB gerber files
     └── kicad/          # KiCad EDA source files
-
-github README.md
